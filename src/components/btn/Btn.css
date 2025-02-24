@@ -1,0 +1,21 @@
+.hero-btn{
+    color: #374151;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    background-color: #F9FAFB;
+    width: 180px;
+    height: 44px;
+    font-weight: 600;
+  }
+  
+.hero-btn:hover{
+    transition: 0.3s ease;
+    background-color: #EDE9FD;
+    color: #4E38A8;
+}
+  
+.btn-img{
+    width: 8px;
+    height: 8px;
+    margin-left: 8px;
+}
