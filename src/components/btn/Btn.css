@@ -12,10 +12,14 @@
     transition: 0.3s ease;
     background-color: #EDE9FD;
     color: #4E38A8;
+    border: 1px solid #4E38A8;
+    .btn-img{
+      filter: invert(36%) sepia(82%) saturate(2626%) hue-rotate(245deg) brightness(105%) contrast(101%);
+    }
 }
   
 .btn-img{
-    width: 8px;
-    height: 8px;
+    width: 18px;
+    height: 18px;
     margin-left: 8px;
 }

@@ -34,4 +34,35 @@ body {
 
 .hero-subtitle{
   color: #4B5563;
+  font-weight: 600;
+}
+
+.about-section{
+  padding-top: 80px;
+}
+
+.about-photo{
+  border: 2px solid #FFF;
+  box-shadow: #9060ff 0px 0px 16px 0px;
+  border-radius: 50%;
+  width: 256px;
+  height: 256px;
+}
+
+.about-text{
+  font-size: 20px;
+  color: #4B5563;
+}
+
+.about-text-color{
+  font-weight: 600;
+  color: #7C3AED;
+}
+
+.about-info{
+  padding-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px
+  ;
 }

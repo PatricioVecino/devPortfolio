@@ -1,0 +1,16 @@
+.mini-img{
+    filter: invert(36%) sepia(82%) saturate(2626%) hue-rotate(245deg) brightness(105%) contrast(101%);
+    width: 24px;
+    height: 24px;
+    margin-bottom: 3px;
+}
+
+.mini-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mini-description{
+    font-size: 16px;
+    color: #4B5563;
+}
