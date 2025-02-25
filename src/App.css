@@ -41,6 +41,13 @@ body {
   padding-top: 80px;
 }
 
+.about-container-photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;  
+}
+
 .about-photo{
   border: 2px solid #FFF;
   box-shadow: #9060ff 0px 0px 16px 0px;
@@ -63,6 +70,26 @@ body {
   padding-top: 8px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px
-  ;
+  gap: 8px;
+}
+
+#portfolio{
+  padding-top: 160px;
+}
+
+.portfolio-section-title{
+  margin-bottom: 24px;
+}
+
+.portfolio-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px;
+}
+
+.footer-container{
+  background-color: #f5f5f7;
+  color: #4B5563;
+  border-top: 1px solid rgba(139, 92, 246, 0.25);
+  box-shadow: 0 -3px 6px rgba(139, 92, 246, 0.12);
 }

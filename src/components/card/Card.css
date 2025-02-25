@@ -1,0 +1,50 @@
+.card-container{
+    background-color: #FFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    transition: box-shadow 0.9 ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: 0.3s ease;
+}
+
+.card-container:hover{
+    box-shadow: #9060ff 0px 0px 16px 0px;
+}
+
+.card-img{
+    width: 360px;
+    height: 192px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 6px rgba(139, 92, 246, 0.12);
+}
+
+.card-title{
+    color: #111827;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-description{
+    color: #4B5563;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.card-techs{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.tech-icon{
+    width: 48px;
+    height: 48px;
+}
+
