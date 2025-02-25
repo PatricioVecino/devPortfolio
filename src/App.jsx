@@ -21,7 +21,7 @@ function App() {
       <div id='about' className='about-section container '>
         <div className='row'>
           <div className='about-container-photo col-md-4 wow animate__animated animate__fadeInLeft'>
-            <img className='about-photo'  src='public/about-photo.jpeg' alt='foto de perfil' />
+            <img className='about-photo'  src='/about-photo.jpeg' alt='foto de perfil' />
           </div>
           <div className='about-container-text col-md-8 wow animate__animated animate__fadeInRight'>
             <p className='about-text'>

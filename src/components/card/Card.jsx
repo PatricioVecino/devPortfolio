@@ -2,7 +2,7 @@ import React from "react";
 import './Card.css'
 
 export function Card({title,img,description,techs,repoLink}){
-    const imageSrc=`public/component-images/${img}`
+    const imageSrc=`/component-images/${img}`
     const techIcons = techs.split(', ')
 
     return(
@@ -14,7 +14,7 @@ export function Card({title,img,description,techs,repoLink}){
                 {techIcons.map((tech, index) => (
                 <img
                     key={index}
-                    src={`public/component-images/techs/${tech}`}
+                    src={`/component-images/techs/${tech}`}
                     alt={tech.replace('.svg', '')}
                     className="tech-icon"
                 />
