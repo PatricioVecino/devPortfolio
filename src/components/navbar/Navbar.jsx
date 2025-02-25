@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.css';
-import logoPV from '../../assets/component-images/pv.png';
 
 export function Navbar(){
     return(
