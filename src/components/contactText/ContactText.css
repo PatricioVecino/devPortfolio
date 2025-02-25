@@ -1,0 +1,10 @@
+.contact-text-title{
+    color: #4b5563;
+    margin: 8px;
+}
+
+.contact-text-img{
+    filter: invert(36%) sepia(82%) saturate(2626%) hue-rotate(245deg) brightness(105%) contrast(101%);
+    width: 24px;
+    height: 24px;
+}

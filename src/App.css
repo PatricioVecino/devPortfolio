@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+input:focus, textarea:focus, select:focus {
+  border-color: black !important; 
+  box-shadow: #9060ff 0px 0px 16px 0px !important;
+}
 
 :root {
   --font-sans: "Geist Mono";
@@ -87,9 +91,45 @@ body {
   gap: 16px;
 }
 
+.skills-section{
+  padding-top: 120px;
+}
+
+.skills-section-cards{
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+#contact{
+  padding-top: 120px;
+}
+
+.contact-title{
+  margin-bottom: 24px;
+}
+
+.contact-subtitle{
+  color: #4B5563;
+}
+
+.contact-texts{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-control{
+  margin-bottom: 16px;
+}
+
 .footer-container{
   background-color: #f5f5f7;
   color: #4B5563;
   border-top: 1px solid rgba(139, 92, 246, 0.25);
   box-shadow: 0 -3px 6px rgba(139, 92, 246, 0.12);
+  margin-top: 120px;
+  padding: 16px;
 }
+
