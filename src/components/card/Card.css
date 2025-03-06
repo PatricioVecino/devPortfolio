@@ -1,43 +1,50 @@
-.card-container{
-    background-color: #FFF;
-    border: 1px solid #E5E7EB;
-    border-radius: 8px;
-    transition: box-shadow 0.9 ease;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    padding-top: 8px;
-    padding-bottom: 8px;
+.card-container {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  transition: box-shadow 0.9 ease;
+  padding: 24px;
+  height: 410px;
+  width: 420px;
+  border-radius: 8px;
 }
 
-.card-img{
-    width: 400px;
-    height: 200px;
-    margin-bottom: 24px;
-    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+.card-img {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 24px;
+  object-fit: contain;
+  padding: 4px;
+  background-color: #f9fafb;
+  border-radius: 4px;
 }
 
-.card-title{
-    color: #111827;
-    font-size: 18px;
-    font-weight: 600;
+.card-title {
+  color: #111827;
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.card-description{
-    color: #4B5563;
-    font-size: 16px;
-    padding-top: 8px;
+.card-description {
+  color: #4b5563;
+  font-size: 16px;
+  padding-top: 8px;
 }
 
-.card-techs{
-    display: flex;
-    gap: 16px;
-    margin-bottom: 8px;
+.card-techs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 8px;
 }
 
-.tech-icon{
-    width: 48px;
-    height: 48px;
+.tech-icon {
+  width: 48px;
+  height: 48px;
 }
 
+.holder-container {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 124px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
