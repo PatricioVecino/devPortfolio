@@ -92,7 +92,18 @@ body {
 .portfolio-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: center;
   gap: 16px;
+  grid-auto-flow: dense;
+  grid-auto-rows: auto;
+}
+
+.portfolio-cards > *:last-child:nth-child(3n - 2):nth-last-child(1) {
+  grid-column: 2;
+}
+
+.portfolio-cards > *:last-child:nth-child(3n - 1):nth-last-child(1) {
+  grid-column: 2 / 4;
 }
 
 .skills-section {

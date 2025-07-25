@@ -1,0 +1,39 @@
+.caracteristica-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  background: linear-gradient(to right, #f9fafb, #ffffff);
+  border-radius: 8px;
+  border-left: 4px solid #8b5cf6;
+  transition: all 0.3s ease;
+}
+
+.caracteristica-item:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-left-color: #7c3aed;
+}
+
+.check-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #ede9fe;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.check-icon svg {
+  color: #8b5cf6;
+}
+
+.caracteristica-text {
+  margin: 0;
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.5;
+  flex: 1;
+}
