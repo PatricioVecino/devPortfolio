@@ -27,7 +27,9 @@ export function ProjectHolder({ completeData, onClose }) {
         <div className="modal-body">
           <section className="modal-description">
             <h3 className="modal-body-title">Descripción General</h3>
-            <p>{completeData.dataProject.large_description}</p>
+            <p className="modal-body-description">
+              {completeData.dataProject.large_description}
+            </p>
           </section>
           <div className="modal-grid-container">
             <section className="modal-body-row-features">

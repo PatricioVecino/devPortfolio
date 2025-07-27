@@ -27,7 +27,6 @@ body {
   background-image: linear-gradient(to right, #f3f4f6, #ede9fe);
   margin-top: 32px;
   height: 320px;
-  width: 1504px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,4 +145,77 @@ body {
   box-shadow: 0 -3px 6px rgba(139, 92, 246, 0.12);
   margin-top: 120px;
   padding: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  #about .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-section {
+    padding-top: 40px;
+  }
+
+  .about-container-text {
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-info {
+    gap: 24px;
+  }
+
+  .download-cv-btn {
+    padding-top: 28px;
+  }
+
+  #portfolio {
+    padding-top: 40px;
+  }
+
+  .portfolio-section-title {
+    text-align: center;
+  }
+
+  .portfolio-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .skills-section {
+    padding-top: 40px;
+  }
+
+  .skills-title {
+    text-align: center;
+  }
+
+  #contact {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .portfolio-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-data {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  .skills-section-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

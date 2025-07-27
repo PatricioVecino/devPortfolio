@@ -55,3 +55,46 @@
   text-align: center;
   border: 1px solid #e5e7eb;
 }
+
+@media screen and (max-width: 991px) {
+  .card-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-title {
+    font-size: 28px;
+  }
+
+  .card-description {
+    font-size: 20px;
+  }
+
+  .card-img {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 100%;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+
+  .card-description {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  .holder-container {
+    width: 100%;
+    padding: 4px 8px;
+  }
+}

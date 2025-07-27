@@ -62,7 +62,7 @@ function App() {
               <MiniSection
                 title="Habilidades"
                 img="outline.svg"
-                description="Desarrollo Frontend y Backend, en las tecnologias detalladas en la seccion de proyectos."
+                description="Desarrollo Frontend y Backend. Interesado en IA y Data Science."
               />
               <MiniSection
                 title="Idiomas"
@@ -70,9 +70,11 @@ function App() {
                 description="Español (nativo), Inglés (intermedio-avanzado) con certificación First Certificate in English."
               />
             </section>
-            <a href="/public/CV Patricio Vecino.pdf" target="_blank">
-              <Btn text="Descargar CV" img="download.svg" />
-            </a>
+            <section className="download-cv-btn">
+              <a href="/public/CV Patricio Vecino.pdf" target="_blank">
+                <Btn text="Descargar CV" img="download.svg" />
+              </a>
+            </section>
           </div>
         </div>
       </div>
