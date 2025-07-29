@@ -180,8 +180,6 @@ function App() {
                 "Visualización de sesiones agendadas, con detalle de estado y posibilidad de aceptarlas o rechazarlas.",
                 "Integración de un sistema de pagos a través de Mercado Pago para facilitar las transacciones entre entrenadores y clientes.",
               ],
-
-              link: "https://juliovecino.com.ar",
             }}
           />
         </section>

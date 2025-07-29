@@ -2,9 +2,3 @@
   color: #9060ff;
   font-weight: 600;
 }
-
-@media screen and (max-width: 461px) {
-  .holder-tech {
-    font-size: 18px;
-  }
-}
