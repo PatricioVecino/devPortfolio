@@ -80,8 +80,66 @@ body {
   gap: 8px;
 }
 
+.experience-highlight {
+  position: relative;
+  background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+  border: 2px solid #e9d5ff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px -1px rgba(147, 51, 234, 0.1),
+    0 2px 4px -1px rgba(147, 51, 234, 0.06);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.experience-highlight::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #8b5cf6, #a855f7, #c084fc);
+  border-radius: 12px 12px 0 0;
+}
+
+.experience-highlight:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 25px -3px rgba(147, 51, 234, 0.15),
+    0 4px 6px -2px rgba(147, 51, 234, 0.08);
+  border-color: #c4b5fd;
+}
+
+.experience-highlight .mini-title {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.experience-highlight .mini-description {
+  color: #7c3aed;
+  font-weight: 500;
+}
+
+.experience-highlight-subtle {
+  position: relative;
+  background: #fefbff;
+  border: 2px solid #e9d5ff;
+  border-radius: 8px;
+  padding: 18px;
+  transition: all 0.3s ease;
+}
+
+.experience-highlight-subtle:hover {
+  border-color: #c4b5fd;
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.1);
+  transform: translateY(-1px);
+}
+
+.download-cv-btn {
+  padding-top: 28px;
+}
+
 #portfolio {
-  padding-top: 160px;
+  padding-top: 100px;
 }
 
 .portfolio-section-title {
@@ -95,14 +153,6 @@ body {
   gap: 16px;
   grid-auto-flow: dense;
   grid-auto-rows: auto;
-}
-
-.portfolio-cards > *:last-child:nth-child(3n - 2):nth-last-child(1) {
-  grid-column: 2;
-}
-
-.portfolio-cards > *:last-child:nth-child(3n - 1):nth-last-child(1) {
-  grid-column: 2 / 4;
 }
 
 .skills-section {
@@ -136,6 +186,10 @@ body {
 
 .form-control {
   margin-bottom: 16px;
+}
+
+.linkedin-contact {
+  text-decoration: none;
 }
 
 .footer-container {

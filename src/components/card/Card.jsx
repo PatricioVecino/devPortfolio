@@ -1,7 +1,6 @@
 import React from "react";
 import "./Card.css";
 import { Holder } from "../holder/Holder.jsx";
-import "../holder/Holder.css";
 
 export function Card({
   title,
@@ -32,8 +31,6 @@ export function Card({
           src={imageSrc}
           alt="imagen del proyecto"
         />
-        <h4 className="card-title">{title}</h4>
-        <p className="card-description">{description}</p>
         <section className="card-techs">
           {techIcons.map((tech, index) => (
             <div className="holder-container shadow-sm" key={index}>
@@ -41,6 +38,13 @@ export function Card({
             </div>
           ))}
         </section>
+        <p className="card-description">{dataProject.large_description}</p>
+        <button
+          className="card-button"
+          onClick={() => onCardClick(completeData)}
+        >
+          Acerca del proyecto
+        </button>
       </div>
     </>
   );

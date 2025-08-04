@@ -3,7 +3,7 @@
   border: 1px solid #e5e7eb;
   transition: box-shadow 0.9 ease;
   padding: 24px;
-  height: 410px;
+  min-height: 410px;
   width: 420px;
   border-radius: 8px;
   cursor: pointer;
@@ -35,25 +35,42 @@
   color: #4b5563;
   font-size: 16px;
   padding-top: 8px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .card-techs {
   display: flex;
+  justify-content: start;
   gap: 16px;
   margin-bottom: 8px;
 }
 
-.tech-icon {
-  width: 48px;
-  height: 48px;
-}
-
 .holder-container {
   border-radius: 8px;
-  padding: 8px 16px;
-  width: 124px;
+  padding: 4px 12px;
   text-align: center;
   border: 1px solid #e5e7eb;
+}
+
+.card-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #f3f4f6, #ede9fe);
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  color: #9060ff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.card-button:hover {
+  box-shadow: #9060ff 0px 0px 16px 0px;
+  color: #7c3aed;
 }
 
 @media screen and (max-width: 991px) {

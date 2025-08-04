@@ -7,6 +7,7 @@ import { Card } from "./components/card/Card";
 import { MiniCard } from "./components/miniCard/MiniCard";
 import { ContactText } from "./components/contactText/ContactText";
 import { ProjectHolder } from "./components/projectHolder/ProjectHolder";
+import { Title } from "./components/title/Title";
 
 function App() {
   const [showProjectHolder, setShowProjectHolder] = useState(null);
@@ -53,21 +54,25 @@ function App() {
                 title="Educacion"
                 img="graduation.svg"
                 description="Actual estudiante de la Licenciatura en Sistemas, en la Universidad Argentina de la Empresa (UADE)."
+                className="experience-highlight-subtle"
               />
               <MiniSection
                 title="Experiencia"
                 img="eye.svg"
                 description="Cofundador de startup premiada y desarrollador en empresas del sector inmobiliario."
+                className="experience-highlight"
               />
               <MiniSection
                 title="Habilidades"
                 img="outline.svg"
                 description="Desarrollo Frontend y Backend. Interesado en IA y Data Science."
+                className="experience-highlight-subtle"
               />
               <MiniSection
                 title="Idiomas"
                 img="traductor.svg"
                 description="Español (nativo), Inglés (intermedio-avanzado) con certificación First Certificate in English."
+                className="experience-highlight-subtle"
               />
             </section>
             <section className="download-cv-btn">
@@ -79,9 +84,10 @@ function App() {
         </div>
       </div>
       <div id="portfolio" className="portfolio-section container">
-        <h4 id="Proyectos" className="portfolio-section-title">
-          Proyectos Propios y Colaborativos
-        </h4>
+        <Title
+          title="Proyectos Propios y Colaborativos"
+          subtitle="Desde startups hasta empresas."
+        />
         <section className="portfolio-cards">
           <Card
             title="Stockflow"
@@ -191,9 +197,10 @@ function App() {
         )}
       </div>
       <div id="skills" className="skills-section container">
-        <h4 id="Habilidades" className="skills-title">
-          Más Habilidades...
-        </h4>
+        <Title
+          title="Habilidades"
+          subtitle="Stack tecnológico y herramientas que domino actualmente."
+        />
         <section className="skills-section-cards">
           <MiniCard title="MongoDB" />
           <MiniCard title="Express" />
@@ -206,20 +213,24 @@ function App() {
         </section>
       </div>
       <div id="contact" className="contact-section container">
-        <h4 id="Contacto" className="contact-title">
-          Contacto
-        </h4>
+        <Title
+          title="Contacto"
+          subtitle="¿Tienes un proyecto en mente? ¡Hablemos!"
+        />
         <div className="row">
           <div className="contact-data col-md-6">
-            <p className="contact-subtitle">
-              ¿Tienes un proyecto en mente? ¡Hablemos!
-            </p>
             <section className="contact-texts">
               <ContactText
                 text="patriciogabrielvecino@gmail.com"
                 img="mail.svg"
               />
-              <ContactText text="patriciogabrielvecino" img="in.svg" />
+              <a
+                className="linkedin-contact"
+                href="https://www.linkedin.com/in/patriciogabrielvecino/"
+                target="_blank"
+              >
+                <ContactText text="Patricio Vecino" img="in.svg" />
+              </a>
               <ContactText text="Buenos Aires, Argentina" img="location.svg" />
             </section>
           </div>
