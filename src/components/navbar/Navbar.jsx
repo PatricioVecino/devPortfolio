@@ -1,27 +1,56 @@
-import React from 'react';
-import './Navbar.css';
+import React from "react";
+import "./Navbar.css";
 
-export function Navbar(){
-    return(
-        <nav className= 'nav-container'>
-            <nav className='navbar navbar-expand-lg navbar-light container'>
-                <div className='container-fluid'>
-                    <a className='navbar-brand' href='https://github.com/PatricioVecino' target='_blank'> 
-                        <span className='name-tag'><b>Patricio Vecino 🧑🏻‍💻</b></span> 
-                    </a>
-                    <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
-                        <span className='navbar-toggler-icon'></span>
-                    </button>
-                    <div className="collapse navbar-collapse justify-content-end" id='navbarNav'>
-                        <div className="navbar-nav">
-                            <a className="nav-link active" aria-current="page" href="#SobreMi">Sobre mi</a>
-                            <a className="nav-link active" href="#Proyectos">Proyectos</a>
-                            <a className="nav-link active" href="#Habilidades">Habilidades</a>
-                            <a className="nav-link active" href="#Contacto">Contacto</a>
-                        </div>
-                    </div>
-                </div> 
-            </nav>
-        </nav>
-    )
+export function Navbar() {
+  return (
+    <nav className="nav-container">
+      <nav className="navbar navbar-expand-lg navbar-light container">
+        <div className="container-fluid">
+          <a
+            className="navbar-brand"
+            href="https://github.com/PatricioVecino"
+            target="_blank"
+          >
+            <span className="name-tag">
+              <b>Patricio Vecino 🧑🏻‍💻</b>
+            </span>
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <div className="navbar-nav">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#SobreMi"
+              >
+                Sobre mi
+              </a>
+              <a className="nav-link active" href="#portfolio">
+                Proyectos
+              </a>
+              <a className="nav-link active" href="#skills">
+                Habilidades
+              </a>
+              <a className="nav-link active" href="#contact">
+                Contacto
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </nav>
+  );
 }

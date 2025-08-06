@@ -26,7 +26,7 @@ function App() {
         <p className="hero-subtitle text-center animate__animated animate__pulse">
           Construyo aplicaciones web, enfocadas en rendimiento y escalabilidad.
         </p>
-        <a href="#Proyectos">
+        <a href="#portfolio">
           <Btn text="Ver Portfolio" img="arrow-down.svg" />
         </a>
       </div>
@@ -76,7 +76,7 @@ function App() {
               />
             </section>
             <section className="download-cv-btn">
-              <a href="/public/CV Patricio Vecino.pdf" target="_blank">
+              <a href="/CV Patricio Vecino.pdf" target="_blank">
                 <Btn text="Descargar CV" img="download.svg" />
               </a>
             </section>
